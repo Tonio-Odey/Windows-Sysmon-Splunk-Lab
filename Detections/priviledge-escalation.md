@@ -12,4 +12,4 @@ Event Codes: 4728, 4729
 ## Splunk Detection Query
 
 ```spl
-index=winevents EventCode=4728 OR EventCode=4729 | table _time, EventCode, Account_Name, host
+index=winevents EventCode=4728 OR EventCode=4729 | table _time, EventCode, Account_Name, Group_Name
