@@ -1,7 +1,7 @@
 
 ---
 
-#`brute-force.md`
+# `brute-force.md`
 
 ```markdown
 # Brute Force Detection
@@ -17,3 +17,5 @@ Detects failed and successful login attempts on Windows using **EventCode 4625 (
 
 ```spl
 index=winevents EventCode=4625 OR EventCode=4624
+| table _time, EventCode, Account_Name, Workstation_Name, host
+| sort - _time
