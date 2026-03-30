@@ -23,28 +23,28 @@ The lab simulates real-world attacker behavior and shows how these activities ar
 ### 1. Brute Force Attack
 - Multiple failed login attempts followed by a successful login
 - Event Codes: 4625, 4624  
-- Detection file: [Brute Force Detection](detections/brute-force.md)
+- Detection file: ![Brute Force Detection](Detections/brute-force.md)
 
 ---
 
 ### 2. Privilege Escalation
 - User added/removed from privileged groups
 - Event Codes: 4728, 4729 
-- Detection file: [Privilege Escalation Detection](detections/privilege-escalation.md)
+- Detection file: ![Privilege Escalation Detection](Detections/privilege-escalation.md)
 
 ---
 
 ### 3. Lateral Movement
 - Remote logon from one machine to another
 - Event Code: 4624 (LogonType 3)  
-- Detection file: [Lateral Movement Detection](detections/lateral-movement.md)
+- Detection file: ![Lateral Movement Detection](Detections/lateral-movement.md)
 
 ---
 
 ### 4. PowerShell Execution (Sysmon)
 - PowerShell activity captured using Sysmon Operational logs
 - Event Codes: 1, 4  
-- Detection file: [PowerShell Sysmon Detection](detections/powershell-sysmon.md)
+- Detection file: ![PowerShell Sysmon Detection](Detections/powershell-sysmon.md)
 
 ---
 
@@ -55,10 +55,3 @@ The lab simulates real-world attacker behavior and shows how these activities ar
 - Understanding why some logs may not appear initially and how to troubleshoot them  
 
 ---
-
-│ └── powershell-sysmon.md
-└── /screenshots
-├── brute-force.png
-├── privilege-escalation.png
-├── lateral-movement.png
-└── powershell-sysmon.png
