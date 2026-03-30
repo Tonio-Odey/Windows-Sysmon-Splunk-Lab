@@ -7,7 +7,7 @@ Event Codes: 4728, 4729
 
 ## Screenshot
 
-![Privilege Escalation Splunk Screenshot](../Screenshots/privilege-escalation.png)
+![Privilege Escalation Splunk Screenshot](../Screenshots/priviledge-escalation.png)
 
 ## Splunk Detection Query
 
