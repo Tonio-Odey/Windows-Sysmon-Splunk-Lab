@@ -52,6 +52,8 @@ The lab simulates real-world attacker behavior and shows how these activities ar
 - How to forward Windows logs to Splunk using Universal Forwarder  
 - How Sysmon enhances visibility into process and script execution  
 - How to detect common attack techniques using Splunk queries  
-- Understanding why some logs may not appear initially and how to troubleshoot them  
+
+## Conclusion
+This lab provides a practical approach to understanding how attacker activities are logged and detected in a Windows environment using Splunk. It is designed to be reproducible and serves as a strong foundation for SOC analysts and threat detection.
 
 ---
