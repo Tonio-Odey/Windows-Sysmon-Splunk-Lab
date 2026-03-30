@@ -6,7 +6,7 @@ Detects failed and successful login attempts on Windows using **EventCode 4625 (
 
 ## Screenshot
 
-![Brute Force Splunk Screenshot](../../screenshots/brute-force.png)
+![Brute Force Splunk Screenshot](../Screenshots/brute-force.png)
 
 ## Splunk Detection Query
 
